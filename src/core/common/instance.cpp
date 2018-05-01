@@ -387,9 +387,8 @@ template <> Utils::JamDetector &Instance::Get(void)
 }
 #endif
 
-template <> Utils::ChildSupervisor &Instance::Get(void)
-{
-    return GetThreadNetif().GetChildSupervisor();
+template <> Utils::ChildSupervisor &Instance::Get(void){
+      return GetThreadNetif().GetChildSupervisor();
 }
 
 template <> Utils::SupervisionListener &Instance::Get(void)
