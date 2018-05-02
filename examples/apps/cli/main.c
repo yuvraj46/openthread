@@ -45,7 +45,7 @@ void *otPlatCAlloc(size_t aNum, size_t aSize)
 
 void otPlatFree(void *aPtr)
 {
-    free(aPtr);
+     free(aPtr);
 }
 #endif
 
