@@ -117,8 +117,8 @@ Instance *Instance::Init(void *aBuffer, size_t *aBufferSize)
 
     // Make sure the input buffer is big enough
     VerifyOrExit(sizeof(Instance) <= *aBufferSize, *aBufferSize = sizeof(Instance));
-
-    VerifyOrExit(aBuffer != NULL);
+ 
+     VerifyOrExit(aBuffer != NULL);
 
     instance = new (aBuffer) Instance();
 
