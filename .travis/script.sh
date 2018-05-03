@@ -34,6 +34,11 @@ die() {
 
 set -x
 
+echo "PWD"
+echo $PWD
+ls $PWD
+
+
 [ $BUILD_TARGET != pretty-check ] || {
     ./bootstrap || die
     ./configure || die
