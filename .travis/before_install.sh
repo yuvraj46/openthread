@@ -38,6 +38,9 @@ rm configure.ac;
 ls $PWD;
 rm -rf tests
 ls  $PWD
+ifconfig;
+echo $USER
+printenv
 set -x
 
 cd /tmp || die
