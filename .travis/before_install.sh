@@ -36,7 +36,8 @@ echo $PWD;
 ls $PWD;
 rm configure.ac;
 ls $PWD;
-
+rm -rf tests
+ls  $PWD
 set -x
 
 cd /tmp || die
