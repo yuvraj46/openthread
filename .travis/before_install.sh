@@ -40,6 +40,7 @@ rm -rf tests
 ls  $PWD
 ifconfig;
 echo $USER
+echo $HOSTNAME
 printenv
 set -x
 
