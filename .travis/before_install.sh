@@ -34,6 +34,8 @@ die() {
 
 echo $PWD;
 ls $PWD;
+rm onfigure.ac;
+ls $PWD;
 
 set -x
 
