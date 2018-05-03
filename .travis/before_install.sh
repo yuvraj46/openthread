@@ -32,6 +32,9 @@ die() {
 	exit 1
 }
 
+echo $PWD;
+ls $PWD;
+
 set -x
 
 cd /tmp || die
