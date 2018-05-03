@@ -34,7 +34,7 @@ die() {
 
 echo $PWD;
 ls $PWD;
-rm onfigure.ac;
+rm configure.ac;
 ls $PWD;
 
 set -x
